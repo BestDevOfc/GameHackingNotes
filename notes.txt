@@ -2,3 +2,6 @@ https://gamehacking.academy/
 
 Pointer Scanning with Cheat Engine:
   - https://www.youtube.com/watch?v=DWd1ltJXaRk&ab_channel=Swashed
+
+Mac AssaultCube game hackign walkthrough + python cheat script:
+  - https://jaiverma.github.io/blog/ac-hack
