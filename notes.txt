@@ -5,3 +5,4 @@ Pointer Scanning with Cheat Engine:
 
 Mac AssaultCube game hackign walkthrough + python cheat script:
   - https://jaiverma.github.io/blog/ac-hack
+  - https://github.com/rpwnage/assault-cube-hack/blob/master/src/offsets.h
