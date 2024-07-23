@@ -14,3 +14,16 @@ Mac AssaultCube game hackign walkthrough + python cheat script:
 
 Internal game hacking DYLIB on Mac with Rust:
   - https://www.youtube.com/watch?v=MrR-NvN_8tI&ab_channel=GuidedHacking
+
+
+
+Pointerscanning:
+    1) Generate pointermap1
+    2) close and re-open game ( keep the addresslist we need it in step 5 )
+    3) Generate pointermap2
+    4) click find out what writes to this address and take note of the + offset (after the "+" symbol), for example REGISTER+0F9
+    5) Pointerscan for address
+        - use pointermap2
+        - compare with pointermap1 ( saved address should be the first one you used to generate pointermap1 )
+        - filter with offset endings you found in step 4
+    6) now use the filter & search option to narrow down which pointers are valid 
