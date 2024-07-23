@@ -2,6 +2,11 @@ https://gamehacking.academy/
 
 Pointer Scanning with Cheat Engine:
   - https://www.youtube.com/watch?v=DWd1ltJXaRk&ab_channel=Swashed
+      - in this video he also shows AOB injection which lets you change the assembly operations and it's saved in the cheat table.
+        This is pretty nice because now you don't have to pointerscan, test pointers, etc between game sessions.
+        For example, if you want an ammo cheat instead of finding the pointer to the ammo you could simply make an AOB injecton that does NOP instead           of DEC REGISTER_NAME. Unless the game is updated the cheat script will be reliable, this is not really a con since addresses also usually             change with game updates unless you have a good dumper.
+      - What an AOB injection is:
+              "AOB Injection and Code Injection are really the same thing except in case of AOB Injection, the injection point is scanned and found in                 the code using a specific signature (AOB = array of byte) while Code Injection uses hard-coded addresses."
 
 Mac AssaultCube game hackign walkthrough + python cheat script:
   - https://jaiverma.github.io/blog/ac-hack
